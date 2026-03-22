@@ -1,0 +1,21 @@
+{
+  "name": "wechat-bot-example",
+  "version": "1.0.0",
+  "description": "Minimal WeChat AI Bot — connect any AI to WeChat personal accounts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx wechat-bot.ts",
+    "start:openai": "tsx wechat-bot.ts --openai"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "optionalDependencies": {
+    "openai": "^4.80.0"
+  }
+}
