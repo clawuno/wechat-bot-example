@@ -3,6 +3,9 @@
  *
  * Wraps the ilink bot API for WeChat personal account integration.
  * Four endpoints: getQrCode, waitForScan, getUpdates, sendMessage.
+ *
+ * API interface based on analysis of @tencent-weixin/openclaw-weixin (MIT License).
+ * Copyright (c) 2026 Tencent Inc.
  */
 
 const BASE_URL = 'https://ilinkai.weixin.qq.com'

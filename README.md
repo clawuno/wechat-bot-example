@@ -58,6 +58,10 @@ wechat-bot.ts   — Bot 主逻辑（回显模式 + OpenAI 模式）
 - 本示例仅处理文本消息（API 支持图片/语音/文件，但未在此实现）
 - 对话历史仅保存在内存中，重启后丢失
 
+## 致谢
+
+本项目的 API 接口知识来自对 [@tencent-weixin/openclaw-weixin](https://www.npmjs.com/package/@tencent-weixin/openclaw-weixin) 插件源码的分析。该插件由腾讯微信团队开发，采用 MIT 协议开源。
+
 ## 许可
 
 MIT
